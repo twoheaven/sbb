@@ -398,3 +398,6 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/sbb/local.mv.
 	at org.h2.mvstore.FileStore.open(FileStore.java:128)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:452)
 	... 134 more
+2023-07-17 19:15:43 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ANSWER QUESTION [*]SITE_USER"; SQL statement:
+SELECT * FROM ANSWER QUESTION SITE_USER [42000-214]
