@@ -401,3 +401,9 @@ Caused by: org.h2.mvstore.MVStoreException: The file is locked: C:/sbb/local.mv.
 2023-07-17 19:15:43 jdbc[13]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM ANSWER QUESTION [*]SITE_USER"; SQL statement:
 SELECT * FROM ANSWER QUESTION SITE_USER [42000-214]
+2023-08-06 00:01:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DATA" not found; SQL statement:
+delete data [42102-214]
+2023-08-06 00:01:55 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]QUESTION"; SQL statement:
+QUESTION [42000-214]
